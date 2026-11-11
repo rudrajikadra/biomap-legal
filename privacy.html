@@ -20,7 +20,7 @@
 </head>
 <body>
 <h1>BioMap — Privacy Policy</h1>
-<p class="updated">Last updated: 18 October 2026</p>
+<p class="updated">Last updated: 12 November 2026</p>
 
 <p>BioMap ("BioMap", "we", "us", or "our") is a personal blood-test tracking app for iOS. This Privacy Policy explains what information BioMap handles, how it is used, and the choices and rights you have. We have designed BioMap to be private by default: your health information is stored in <strong>your own</strong> Apple iCloud account, and we — the developer — cannot access it.</p>
 
@@ -31,25 +31,27 @@
 
 <h2>2. Information BioMap handles</h2>
 <ul>
-  <li><strong>Health information you enter or upload.</strong> Blood-test biomarker values, units, test dates, reference ranges, notes, and the original report files (PDFs or camera scans) you choose to add.</li>
+  <li><strong>Health information you enter or upload.</strong> Blood-test biomarker values, units, test dates, reference ranges, notes, and the original report files (PDFs, camera scans or photos) you choose to add.</li>
+  <li><strong>Documents and prescriptions you choose to keep.</strong> Medical files such as X-rays, MRI or CT scans, ultrasounds, ECGs, discharge summaries and specialist letters, each with the title, type, date, clinic or doctor, and notes you give it; and prescriptions you record — the medication name, dosage, purpose, dates, and any photos you attach. BioMap stores these files exactly as you add them. It does <strong>not</strong> read, analyse, or extract anything from them, and they are <strong>never sent</strong> to Google or any other AI service.</li>
   <li><strong>Profile details.</strong> The name, biological sex, optional photo, colour, blood type, and any medical history note (long-term conditions or medications) you set for each profile (for example, yourself or a family member).</li>
   <li><strong>Purchase information.</strong> Whether you hold an active BioMap Pro subscription or the Lifetime purchase, an anonymous app user ID used to manage it, and an app-specific device identifier that Apple provides to each app (it is not the advertising identifier). We never see or store your payment card details — Apple handles all payments.</li>
   <li><strong>Apple Ads attribution.</strong> If you installed BioMap after seeing or tapping one of our ads on the App Store, Apple may tell us which of our Apple Ads campaigns, ad groups, and keywords led to the install, and whether you tapped or only viewed the ad. This lets us see which of our ads lead to subscriptions. It does not include your name, contact details, your advertising identifier, or anything about other apps you use. BioMap does not ask for tracking permission and does not access your advertising identifier.</li>
-  <li><strong>Camera.</strong> If you scan a paper report, the camera is used only to capture that image, and for no other purpose.</li>
-  <li><strong>Photo library.</strong> If you choose "Upload Report Photos", BioMap receives only the images you specifically select through Apple's photo picker. It has no access to the rest of your photo library.</li>
+  <li><strong>Camera.</strong> If you scan a paper report or document, the camera is used only to capture those pages, and for no other purpose.</li>
+  <li><strong>Photo library.</strong> If you add photos — of a report, a document, or a prescription, or as a profile picture — BioMap receives only the images you specifically select through Apple's photo picker. It has no access to the rest of your photo library.</li>
   <li><strong>Apple Health (optional, read-only).</strong> If you grant permission, BioMap reads your <strong>weight and blood pressure</strong> from Apple Health so they can appear alongside your biomarker trends. BioMap <strong>never writes</strong> to Apple Health. This data is stored <strong>only on your device</strong>, is <strong>never synced to iCloud</strong>, never sent to us or any third party, and is never used for advertising. You can revoke access at any time in the Health app.</li>
   <li><strong>Reminders.</strong> Any reminder you create for a test, appointment, or follow-up is stored <strong>only on your device</strong> and delivered as a local notification. Reminders are not synced to iCloud and are never sent to us.</li>
 </ul>
 <p>BioMap does <strong>not</strong> include advertising SDKs, does <strong>not</strong> track you across other apps or websites, and does <strong>not</strong> build advertising profiles.</p>
 
 <h2>3. Where your information is stored</h2>
-<p>Your health information and profiles are stored in your device and in your <strong>private Apple iCloud (CloudKit) database</strong>, encrypted and tied to your personal Apple Account. This storage is controlled by Apple on your behalf. We do not operate servers that hold your health data, and we cannot read, copy, or sell it.</p>
+<p>Your health information, documents, prescriptions, and profiles are stored in your device and in your <strong>private Apple iCloud (CloudKit) database</strong>, encrypted and tied to your personal Apple Account. This storage is controlled by Apple on your behalf. We do not operate servers that hold your health data, and we cannot read, copy, or sell it.</p>
 <p>Some information is deliberately kept <strong>on your device only</strong> and is never placed in iCloud: data read from Apple Health (weight and blood pressure) and any reminders you create.</p>
 
 <h2>4. Optional AI reading of reports (Google Gemini)</h2>
-<p>When you upload a PDF or scan a paper report, BioMap can read the values automatically using <strong>Google's Gemini AI</strong>. Before this happens for the first time, BioMap shows you a consent screen and will not send anything until you agree.</p>
+<p>When you upload a blood report — a PDF, a camera scan, or photos of a paper report — BioMap can read the values automatically using <strong>Google's Gemini AI</strong>. Before this happens for the first time, BioMap shows you a consent screen and will not send anything until you agree.</p>
 <ul>
-  <li><strong>What is sent:</strong> the contents of the report file you upload and the biomarker values read from it.</li>
+  <li><strong>What is sent:</strong> the contents of the report file or photos you upload and the biomarker values read from it.</li>
+  <li><strong>What is never sent:</strong> the documents and prescriptions you store (see Section 2), CSV imports, and results you enter manually.</li>
   <li><strong>Where it goes:</strong> Google's Gemini API processes the file and returns the extracted values. This processing is performed by Google and is subject to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and applicable Google API terms.</li>
   <li><strong>How it is used:</strong> solely to read your results so they can be tracked in the app. The data is not used by BioMap for advertising and is never sold.</li>
   <li><strong>Your choice:</strong> if you decline, no file is sent. You can still add results by CSV import or manual entry, which are processed entirely on your device.</li>
@@ -58,7 +60,7 @@
 <h2>5. Service providers we rely on</h2>
 <ul>
   <li><strong>Apple</strong> — iCloud storage, app distribution, and payment processing.</li>
-  <li><strong>Google</strong> — AI extraction of uploaded reports, only with your consent (see Section 4).</li>
+  <li><strong>Google</strong> — AI extraction of uploaded blood reports, only with your consent (see Section 4).</li>
   <li><strong>RevenueCat</strong> — manages your subscription status on our behalf. RevenueCat receives purchase events, the anonymous app user ID and device identifier described in Section 2, and, if you installed BioMap from one of our App Store ads, the Apple Ads attribution token. RevenueCat exchanges that token with Apple for the campaign details described in Section 2 so we can see which of our ads lead to subscriptions. RevenueCat does not receive your health information, and we do not let it send this data to advertising networks. See <a href="https://www.revenuecat.com/privacy">RevenueCat's Privacy Policy</a>.</li>
 </ul>
 <p>We do not share your information with advertisers or data brokers.</p>
